@@ -7,21 +7,29 @@
 # библиотеку time и используйте оттуда функцию sleep. Определите номер этого 
 # человека и количество монет, которые оказались у него в конце игры.
 
-num_players = int(input('Введите количество игроков:\n'))
-coins_for_players = int(input('Сколько получит по 1 монете?:\n'))
+# num_players = int(input('Введите количество игроков:\n'))
+# coins_for_players = int(input('Сколько получит по 1 монете?:\n'))
 
-list_of_players = []
-list_of_coins = []
+# list_of_players = []
+# list_of_coins = []
 
-list_of_players = [i for i in range(1, num_players+1)]
-print(list_of_players)
+# list_of_players = [i for i in range(1, num_players+1)]
+# print(list_of_players)
 
-while len(list_of_coins) < len(list_of_players):
-    for i in range(1, num_players+1):
-        if len(list_of_coins) < coins_for_players:
-            list_of_coins.insert(i, 1)
-        else:
-            list_of_coins.insert(i, 2)
-i += 1
+# while len(list_of_coins) < len(list_of_players):
+#     for i in range(1, num_players+1):
+#         if len(list_of_coins) < coins_for_players:
+#             list_of_coins.insert(i, 1)
+#         else:
+#             list_of_coins.insert(i, 2)
+# i += 1
 
-print(list_of_coins)
+# print(list_of_coins)
+
+
+# all_people, all_money = get_people_money_lists()
+# stop_word = ""
+# while len(all_people) != 1:
+# all_people, all_money = game(all_people, all_money)
+# show_results(all_people, all_money)
+# input('Для продолжения нажмите Enter')
